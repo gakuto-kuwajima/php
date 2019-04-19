@@ -1,0 +1,13 @@
+#title {
+  color: red;
+}
+
+.description {
+  color: blue;
+}
+
+.box {
+   background-color: black
+   width: 1000px;
+   height:300px
+}
