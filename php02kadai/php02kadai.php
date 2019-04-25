@@ -23,15 +23,21 @@
 
   echo " ";
 
-  $2018_calendar = [
+  $calendar_2018 = [
     "January" => "1月",
-    "February" => "2",
-    "March" => "3",
-    "April" => "4",
-    "May" => "5",
-    "June" => "6",
-    "July" => "7",
-    "August" => "8",
-  ]
+    "February" => "2月",
+    "March" => "3月",
+    "April" => "4月",
+    "May" => "5月",
+    "June" => "6月",
+    "July" => "7月",
+    "August" => "8月",
+    "September" => "9月",
+    "October" => "10月",
+    "November" => "11月",
+    "December" => "12月"
+  ];
+
+  echo $calendar_2018["December"];
 
 ?>
