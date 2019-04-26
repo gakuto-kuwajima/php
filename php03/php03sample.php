@@ -62,4 +62,54 @@ switch($weekday){
    break;
 }
 
+
+//さまざまな条件の比較
+$a = 3;
+$b = 3;
+$c = "3" ;
+
+var_dump($a == $b);
+
+var_dump($a != $b);
+
+var_dump($a > $b);
+
+var_dump($a >= $b);
+
+var_dump($a < $b);
+
+var_dump($a <= $b);
+
+var_dump($a === $b);
+
+var_dump($a !== $c);
+
+
+//for文 例１
+for($i = 0; $i < 10; $i++){
+  echo $i;
+}
+
+//for文 例２
+$total = 0;
+echo $total;
+
+for($i = 0; $i <= 100; $i++){
+  $total += $i;
+}
+echo $total;
+
+//for文による配列処理
+$fruits = ["apple", "orange", "lemon"];
+
+echo count($fruits);
+
+for($i = 0; $i < count($fruits); $i++){
+  echo "要素は". $fruits[$i];
+  echo "\n";
+}
+
+
+
+
 ?>
